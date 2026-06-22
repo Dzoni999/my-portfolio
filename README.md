@@ -1,86 +1,92 @@
-# Nikola Sajic Portfolio
+# 🚀 Nikola Sajic Portfolio
 
-Modern personal portfolio website for Nikola Sajic, a backend developer from Serbia. Built with Angular 20 standalone components and Tailwind CSS.
+Modern personal portfolio website built with **Angular 20** and **Tailwind CSS**, showcasing my skills, projects, and experience as a Backend Developer.
 
-## Features
+## 🌐 Live Demo
 
-- Angular 20 standalone architecture
-- Tailwind CSS dark theme
-- Routed pages: Home, About, Skills, Contact
-- Sticky responsive navigation with mobile menu
-- Scroll reveal animations
-- Glassmorphism panels and interactive skill cards
-- SEO metadata service
-- Accessible landmarks, labels, focus states, and skip link
-- Persistent dark/light mode toggle with localStorage
-- Editable project placeholders and reusable project cards
-- Validated contact form prepared for Formspree or EmailJS
-- Production build configuration
+Coming Soon...
 
-## Project Structure
+## ✨ Features
+
+* 🌙 Dark / Light mode with localStorage persistence
+* 📱 Fully responsive design
+* 🎨 Modern blue-black UI with glassmorphism effects
+* ⚡ Angular 20 standalone architecture
+* 🧭 Smooth navigation and page transitions
+* 📂 Projects showcase with reusable project cards
+* 📊 Interactive skills section with proficiency indicators
+* 📄 Downloadable CV
+* 📬 Contact form with validation
+* 🔍 SEO optimization
+* ♿ Accessibility improvements
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* Angular 20
+* TypeScript
+* Tailwind CSS
+
+### Tools
+
+* Git
+* GitHub
+* Vercel
+
+## 📁 Project Structure
 
 ```text
 src/
-  app/
-    core/
-      reveal.directive.ts
-      seo.service.ts
-    data/
-      portfolio.data.ts
-    layout/
-      footer.component.ts
-      header.component.ts
-    pages/
-      about/
-      contact/
-      home/
-      projects/
-      skills/
-    shared/
-      project-card.component.ts
-      section-heading.component.ts
-      skill-card.component.ts
-    app.component.ts
-    app.config.ts
-    app.routes.ts
-  index.html
-  main.ts
-  styles.css
-public/
-  favicon.svg
+├── app/
+│   ├── core/
+│   ├── data/
+│   ├── layout/
+│   ├── pages/
+│   └── shared/
+├── index.html
+├── main.ts
+└── styles.css
 ```
 
-## Setup
+## 🚀 Getting Started
+
+Install dependencies:
 
 ```bash
 npm install
-npm start
 ```
 
-Open `http://127.0.0.1:4200/`.
-
-## Production Build
+Start development server:
 
 ```bash
-npm run build
+ng serve
 ```
 
-The production files are generated in `dist/nikola-sajic-portfolio`.
+Open:
 
-## Personal Links
+```text
+http://localhost:4200
+```
 
-Most content is centralized in `src/app/data/portfolio.data.ts`.
+## 📦 Production Build
 
-Update this file to edit:
+```bash
+ng build
+```
 
-- Email, GitHub, LinkedIn, and CV URL
-- Skill names and proficiency levels
-- Project titles, descriptions, badges, GitHub links, and demo links
+Production files will be generated inside:
 
-The current CV download points to `public/Nikola-Sajic-CV.txt`. Replace it with a final PDF when ready and update `cvUrl`.
+```text
+dist/nikola-sajic-portfolio
+```
 
-## Contact Form Integration
+## 📬 Contact
 
-The contact form validates locally. To connect Formspree, set `FORMSPREE_ENDPOINT` in `src/app/pages/contact/contact.component.ts`.
+* GitHub: https://github.com/Dzoni999
+* LinkedIn: Add your LinkedIn profile
+* Email: Add your contact email
 
-For EmailJS, call the EmailJS send method inside `submit()` after `contactForm.valid` is true.
+## 📄 License
+
+This project is open source and available under the MIT License.
