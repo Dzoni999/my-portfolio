@@ -84,8 +84,8 @@ dist/nikola-sajic-portfolio
 ## 📬 Contact
 
 * GitHub: https://github.com/Dzoni999
-* LinkedIn: Add your LinkedIn profile
-* Email: Add your contact email
+* LinkedIn: https://www.linkedin.com/in/nikola-sajic/
+* Email: nikolasajic7@gmail.com
 
 ## 📄 License
 
