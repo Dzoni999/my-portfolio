@@ -134,30 +134,30 @@ export const highlights = [
 
 export const projects: Project[] = [
   {
-    title: 'TaskFlow API',
-    description: 'REST API placeholder for a task management system with JWT authentication, role-aware endpoints, and SQL-backed workflows.',
-    technologies: ['ASP.NET Core', 'EF Core', 'SQL Server', 'JWT'],
-    githubUrl: 'https://github.com/Dzoni999',
-    liveUrl: '#',
-    status: 'API concept',
-    imageLabel: 'TaskFlow'
+  title: 'Employee Management API',
+  description: 'Backend REST API for managing employees, authentication, and business workflows using ASP.NET Core, Entity Framework Core, and SQL Server.',
+  technologies: ['ASP.NET Core', 'EF Core', 'SQL Server', 'JWT'],
+  githubUrl: 'https://github.com/Dzoni999/employee-management-api',
+  liveUrl: '#',
+  status: 'Completed',
+  imageLabel: 'Employee Management API'
   },
   {
-    title: 'Inventory Control Dashboard',
-    description: 'Full-stack placeholder for tracking products, stock movements, suppliers, and audit-ready inventory operations.',
-    technologies: ['Angular', 'ASP.NET Core', 'PostgreSQL', 'Tailwind CSS'],
-    githubUrl: 'https://github.com/Dzoni999',
-    liveUrl: '#',
-    status: 'Editable placeholder',
-    imageLabel: 'Inventory'
+  title: 'Product Management System',
+  description: 'Enterprise-style product management application featuring CRUD operations, database integration, REST APIs, and a responsive Angular frontend. Designed to demonstrate full-stack development using the Microsoft technology stack.',
+  technologies: ['Angular', 'ASP.NET Core', 'EF Core', 'SQL Server', 'REST API'],
+  githubUrl: 'https://github.com/Dzoni999/Product_Management',
+  liveUrl: '#',
+  status: 'Completed',
+  imageLabel: 'Product Management'
   },
   {
-    title: 'Booking Service Platform',
-    description: 'Backend-focused placeholder for reservations, availability checks, user accounts, and clean service boundaries.',
-    technologies: ['C#', 'REST APIs', 'EF Core', 'Swagger'],
-    githubUrl: 'https://github.com/Dzoni999',
-    liveUrl: '#',
-    status: 'Architecture sample',
-    imageLabel: 'Booking'
-  }
+  title: 'AI CV Analyzer',
+  description: 'AI-powered workflow built with n8n that analyzes CVs, extracts relevant information, and automates candidate evaluation. Demonstrates workflow automation, AI integration, and process orchestration.',
+  technologies: ['n8n', 'AI', 'Automation', 'Workflow'],
+  githubUrl: 'https://github.com/Dzoni999/n8n-ai-cv-analyzer',
+  liveUrl: '#',
+  status: 'AI Automation',
+  imageLabel: 'AI CV Analyzer'
+  },
 ];

@@ -18,11 +18,10 @@ const FORMSPREE_ENDPOINT = '';
         <div appReveal>
           <p class="text-sm font-black uppercase tracking-[0.32em] accent-text">Contact</p>
           <h1 class="mt-5 font-display text-5xl font-extrabold tracking-tight text-primary sm:text-6xl">
-            Let us build something maintainable.
+            Let's get in touch.
           </h1>
           <p class="mt-6 max-w-2xl text-lg leading-9 text-secondary">
-            I am open to backend developer roles, junior .NET opportunities, freelance API work, and conversations about
-            REST APIs, database design, and clean web application foundations.
+           I am open to backend developer opportunities, .NET projects, and collaborations. Feel free to reach out if you would like to discuss a role, project, or partnership.
           </p>
 
           <div class="mt-8 grid gap-3">
@@ -52,9 +51,9 @@ const FORMSPREE_ENDPOINT = '';
         >
           <div class="flex items-start justify-between gap-6">
             <div>
-              <h2 class="font-display text-2xl font-extrabold text-primary">Send a quick brief</h2>
+              <h2 class="font-display text-2xl font-extrabold text-primary">Send me a message</h2>
               <p class="mt-3 text-sm leading-7 text-secondary">
-                Validation runs locally. Add a Formspree endpoint or EmailJS call when you are ready to send messages from production.
+                Use the form below or contact me directly by email.
               </p>
             </div>
             <span class="hidden rounded-2xl border border-[var(--panel-border)] bg-[var(--accent-soft)] px-3 py-2 font-mono text-xs font-black accent-text sm:inline-flex">
@@ -100,7 +99,7 @@ const FORMSPREE_ENDPOINT = '';
                 rows="6"
                 class="input-control resize-y"
                 [ngClass]="{ 'border-red-400': showError('message') }"
-                placeholder="Tell me about the role, project, API, or backend challenge."
+                placeholder="Tell me about your project, opportunity, or idea."
               ></textarea>
               @if (showError('message')) {
                 <span class="text-sm font-semibold text-red-400">Please add a message with at least 20 characters.</span>
@@ -110,13 +109,13 @@ const FORMSPREE_ENDPOINT = '';
 
           @if (submitted() && contactForm.valid) {
             <p class="mt-5 rounded-2xl border border-signal-400/35 bg-[var(--accent-soft)] px-4 py-3 text-sm font-bold text-primary">
-              Looks good. Connect this form to Formspree or EmailJS to send the message automatically.
+              Your message looks good. You can also contact me directly using the email link below.
             </p>
           }
 
           <div class="mt-7 grid gap-3 sm:grid-cols-[1fr_auto] sm:items-center">
             <button type="submit" class="focus-ring btn-primary px-6 py-3 text-sm">
-              Validate message
+              Review message
             </button>
             <a [href]="'mailto:' + emailDraft()" class="focus-ring btn-secondary px-6 py-3 text-sm">
               Open email draft
@@ -148,7 +147,7 @@ export class ContactComponent implements OnInit {
     this.seo.update({
       title: 'Contact | Nikola Sajic',
       description:
-        'Contact Nikola Sajic for junior backend developer roles, .NET REST API development, database design, and maintainable web application architecture.'
+        'Contact Nikola Sajic for backend development opportunities, .NET projects, REST API development, and web application collaboration.'
     });
   }
 

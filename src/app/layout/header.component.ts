@@ -76,12 +76,7 @@ interface NavItem {
             </span>
           </button>
 
-          <a
-            routerLink="/contact"
-            class="focus-ring btn-primary hidden px-4 py-2 text-sm lg:inline-flex"
-          >
-            Hire me
-          </a>
+          
 
           <button
             type="button"

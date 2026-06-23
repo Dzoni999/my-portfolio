@@ -15,10 +15,10 @@ import { SectionHeadingComponent } from '../../shared/section-heading.component'
         <div appReveal class="lg:sticky lg:top-28">
           <p class="text-sm font-black uppercase tracking-[0.32em] accent-text">About Nikola</p>
           <h1 class="mt-5 font-display text-5xl font-extrabold tracking-tight text-primary sm:text-6xl">
-            Backend developer with a systems mindset.
+           Backend developer focused on practical solutions.
           </h1>
           <p class="mt-6 text-lg leading-9 text-secondary">
-            I am a backend developer from {{ profile.location }} focused on building web applications and REST APIs using .NET technologies.
+            I am a backend developer from Serbia focused on building web applications, REST APIs, and database-driven solutions using .NET technologies.
           </p>
 
           <dl class="mt-8 grid grid-cols-2 gap-3">
@@ -35,12 +35,10 @@ import { SectionHeadingComponent } from '../../shared/section-heading.component'
           <article appReveal class="glass-panel rounded-[2rem] p-7 sm:p-9">
             <h2 class="font-display text-2xl font-extrabold text-primary">How I work</h2>
             <p class="mt-4 leading-8 text-secondary">
-              I enjoy creating clean, maintainable, and scalable software solutions. My main interests are backend development,
-              database design, software architecture, and modern web technologies.
+             I enjoy building practical software projects and continuously improving my skills in backend development, databases, and modern web technologies.
             </p>
             <p class="mt-4 leading-8 text-muted">
-              Good backend work should make a product easier to operate: clear endpoints, consistent validation, predictable persistence,
-              practical error handling, and code that the next developer can understand quickly.
+             I believe good software should be reliable, easy to maintain, and simple to understand. I focus on writing clean code and creating solutions that are easy to extend in the future.
             </p>
           </article>
 
@@ -62,8 +60,8 @@ import { SectionHeadingComponent } from '../../shared/section-heading.component'
         <app-section-heading
           appReveal
           eyebrow="Engineering focus"
-          title="The areas I keep sharpening."
-          description="A backend career rewards depth, restraint, and repeatable habits. These are the areas I pay the most attention to."
+          title="Areas I am currently focused on."
+          description="These are the technologies and development areas I continue to learn and improve through personal projects and hands-on practice."
         />
 
         <div class="mt-10 grid gap-5 lg:grid-cols-4">
@@ -87,9 +85,9 @@ export class AboutComponent implements OnInit {
 
   ngOnInit(): void {
     this.seo.update({
-      title: 'About Nikola Sajic | Junior Backend Developer',
+      title: 'About Nikola Sajic | Backend Developer',
       description:
-        'Learn about Nikola Sajic, a junior backend developer from Belgrade, Serbia focused on .NET APIs, clean architecture, database design, and maintainable software.'
+        'Learn more about Nikola Sajic, a backend developer from Serbia focused on .NET, REST APIs, databases, and web application development.'
     });
   }
 }

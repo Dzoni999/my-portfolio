@@ -32,12 +32,11 @@ import { SkillCardComponent } from '../../shared/skill-card.component';
           </p>
 
           <h1 class="text-balance mt-5 font-display text-5xl font-extrabold tracking-tight text-primary sm:text-6xl lg:text-7xl">
-            Backend systems with clean APIs, durable data, and sharp execution.
+            Building web applications with .NET, Angular, and SQL Server.
           </h1>
 
           <p class="mt-7 max-w-2xl text-lg leading-9 text-secondary">
-            I am {{ profile.name }}, a backend developer focused on .NET web applications, REST APIs,
-            database design, and software architecture that stays readable as requirements grow.
+            I am {{ profile.name }}, a backend developer passionate about .NET, REST APIs, databases, and building practical software solutions.
           </p>
 
           <div class="mt-9 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
@@ -133,8 +132,8 @@ import { SkillCardComponent } from '../../shared/skill-card.component';
         <app-section-heading
           appReveal
           eyebrow="About"
-          title="Backend work with product judgment."
-          description="I enjoy turning requirements into stable services, clear APIs, and database structures that make future development easier instead of harder."
+          title="Building practical software solutions."
+          description="I enjoy building web applications, designing APIs, and creating database structures that are simple, reliable, and easy to maintain."
         />
 
         <div class="mt-10 grid gap-5 lg:grid-cols-3">
@@ -155,8 +154,8 @@ import { SkillCardComponent } from '../../shared/skill-card.component';
           <app-section-heading
             appReveal
             eyebrow="Skills"
-            title="A practical stack for modern web applications."
-            description="Focused backend experience, database fluency, frontend awareness, and everyday tools for professional delivery."
+            title="Technologies I work with."
+            description="Tools and technologies I use for backend development, databases, frontend applications, and everyday software engineering."
           />
           <a routerLink="/skills" class="focus-ring btn-secondary px-5 py-3 text-sm">
             Explore all skills
@@ -177,8 +176,8 @@ import { SkillCardComponent } from '../../shared/skill-card.component';
           <app-section-heading
             appReveal
             eyebrow="Projects"
-            title="Backend-focused project cards ready for real work."
-            description="Editable placeholders with technology badges, preview panels, and GitHub/demo actions."
+            title="Projects I've built."
+            description="A collection of projects built using .NET, Angular, SQL Server, APIs, and automation tools."
           />
           <a routerLink="/projects" class="focus-ring btn-secondary px-5 py-3 text-sm">
             View all projects
@@ -201,10 +200,10 @@ import { SkillCardComponent } from '../../shared/skill-card.component';
             <div>
               <p class="text-sm font-black uppercase tracking-[0.3em] accent-text">Contact</p>
               <h2 class="mt-4 font-display text-3xl font-extrabold text-primary sm:text-4xl">
-                Need a backend developer who cares about the details?
+                Interested in working together?
               </h2>
               <p class="mt-4 max-w-2xl text-base leading-8 text-secondary">
-                Let us talk about APIs, data models, application architecture, or a role where clean backend engineering matters.
+                Feel free to reach out if you would like to discuss a project, collaboration, or backend development opportunity.
               </p>
             </div>
             <a routerLink="/contact" class="focus-ring btn-primary px-6 py-3 text-sm">
@@ -226,9 +225,9 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     this.seo.update({
-      title: 'Nikola Sajic | Junior Backend Developer',
+      title: 'Nikola Sajic | Backend Developer',
       description:
-        'Nikola Sajic is a junior backend developer from Belgrade, Serbia building clean REST APIs and web applications with .NET, ASP.NET Core, and relational databases.'
+        'Nikola Sajic is a backend developer from Serbia building web applications with .NET, Angular, SQL Server, and REST APIs.'
     });
   }
 }
