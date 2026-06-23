@@ -59,8 +59,8 @@ import { profile } from '../data/portfolio.data';
       </div>
 
       <div class="section-shell flex flex-col justify-between gap-3 border-t border-[var(--panel-border)] py-5 text-sm text-muted sm:flex-row">
-        <p>(c) 2026 {{ profile.name }}. Built with Angular 20 and Tailwind CSS.</p>
-        <p>Blue-black interface. Fast, accessible, and responsive.</p>
+        <p>© 2026 {{ profile.name }}. All rights reserved.</p>
+        
       </div>
     </footer>
   `
